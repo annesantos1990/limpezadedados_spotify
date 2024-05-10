@@ -2,11 +2,58 @@
 
 Repositório com os detalhes da limpeza de dados do Projeto de Análise de Dados do Spotify
 
-<h2> Limpeza dos Dados </h2>  - Clique em ▶ para ver os detalhes
     
 → As etapas de limpeza de dados desse projeto foram feitas no Big Query. 
 
 → Nome do projeto criado pelo time no Big Query: **hipoteses-proj2**
+
+## Biblioteca de Dados
+
+  Para esse projeto, tivemos a disposição três diferentes tabelas: Competition, Spotify e Technical_info. Abaixo tem as tabelas e as descrições das variáveis de cada uma delas.
+
+ - Tabela **Competition**
+    - Lista de variáveis:
+    
+    | Variável | Descrição |
+    | --- | --- |
+    | track_id | Identificador exclusivo da música. É um número inteiro de 7 dígitos que não se repete. |
+    | in_apple_playlists | número de listas de reprodução da Apple Music em que a música está incluída. |
+    | in_apple_charts | Presença e classificação da música nas paradas da Apple Music. |
+    | in_deezer_playlists | Número de playlists do Deezer em que a música está incluída. |
+    | in_deezer_charts | Presença e posição da música nas paradas da Deezer. |
+    | in_shazam_charts | Presença e classificação da música nas paradas da Shazam. |
+ - Tabela **Spotify**
+    - Lista de variáveis:
+    
+    | Variável | Descrição |
+    | --- | --- |
+    | track_id | Identificador exclusivo da música. É um número inteiro de 7 dígitos que não se repete. |
+    | track_name | Nome da música. |
+    | artist(s)_name | Nome do(s) artista(s) da música. |
+    | artist_count | Número de artistas que contribuíram na música. |
+    | released_year | Ano em que a música foi lançada. |
+    | released_month | Mês em que a música foi lançada. |
+    | released_day | Dia do mês em que a música foi lançada. |
+    | in_spotify_playlists | Número de listas de reprodução do Spotify em que a música está incluída |
+    | in_spotify_charts | Presença e posição da música nas paradas do Spotify |
+    | streams | Número total de streams no Spotify. Representa o número de vezes que a música foi ouvida. |
+ - Tabela **Technical_info**
+    
+    
+    | Variável | Descrição |
+    | --- | --- |
+    | track_id | Identificador exclusivo da música. É um número inteiro de 7 dígitos que não se repete. |
+    | bpm | Batidas por minuto, uma medida do tempo da música. |
+    | key | Tom musical da música. |
+    | mode | Modo de música (maior ou menor). |
+    | danceability_% | Porcentagem que indica o quão apropriado a canção é para dançar |
+    | valence_% | Positividade do conteúdo musical da música. |
+    | energy_% | Nível de energia percebido da música. |
+    | acusticness_% | Quantidade de som acústico na música. |
+    | instrumentality_% | Quantidade de conteúdo instrumental na música. |
+    | liveness_% | Presença de elementos de performance ao vivo. |
+    | speechiness_% | Quantidade de palavras faladas na música. |
+
 
 ### Valores nulos
 
