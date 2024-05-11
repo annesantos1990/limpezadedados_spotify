@@ -54,7 +54,7 @@ Repositório com os detalhes da limpeza de dados do Projeto de Análise de Dados
     | liveness_% | Presença de elementos de performance ao vivo. |
     | speechiness_% | Quantidade de palavras faladas na música. |
 
-
+## Tratamento dos Dados
 ### Valores nulos
 
 Primeiro, fizemos a contabilização dos valores nulos. Com esse propósito, usamos a seguinte consulta no *Big Query*:
